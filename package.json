@@ -7,5 +7,8 @@
   "devDependencies": {
     "@types/ffprobe-static": "^2.0.3",
     "@types/fluent-ffmpeg": "^2.1.27"
+  },
+  "scripts": {
+    "dev": "tsc && node ./src/js/index.js"
   }
 }

@@ -3,8 +3,8 @@ import DivisorTempo from "./divisor/divisorTempo"
 import ManipuladorDiretorio from "./manipulador/manipuladorDiretorio"
 import Recortador from "./recortador/recortador"
 
-const nomeVideoOriginal = 'video.mp4'
-const tempoDuracaoCorte = 10
+const nomeVideoOriginal = 'tsgopt.mp4'
+const tempoDuracaoCorte = 211
 let manipuladorDiretorio = new ManipuladorDiretorio()
 const caminhoVideoOriginal = manipuladorDiretorio.construirCaminhoArquivoVideo(nomeVideoOriginal)
 
